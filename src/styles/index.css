@@ -1,0 +1,30 @@
+@keyframes logoPulse {
+	0%, 100% {
+		transform: scale(1);
+		box-shadow: 0 2px 8px rgba(255, 182, 193, 0.2);
+	}
+	50% {
+		transform: scale(1.07);
+		box-shadow: 0 4px 16px rgba(255, 182, 193, 0.35);
+	}
+}
+.animate-logoPulse {
+	animation: logoPulse 2s infinite;
+}
+@keyframes fadeInCard {
+	0% {
+		opacity: 0;
+		transform: scale(0.95);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.animate-fadeInCard {
+	animation: fadeInCard 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
