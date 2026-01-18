@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cara Menjalankan Website AmbarShop24
 
 1. Pastikan sudah install Node.js (https://nodejs.org/)
@@ -14,3 +15,21 @@ Jika ada error, pastikan Node.js versi terbaru dan sudah install semua dependenc
 Catatan: Untuk produksi, gunakan perintah build dan preview:
    npm run build
    npm run preview
+=======
+# Cara Menjalankan Website AmbarShop24
+
+1. Pastikan sudah install Node.js (https://nodejs.org/)
+2. Buka folder project ini di terminal (PowerShell/Command Prompt)
+3. Install dependencies:
+   npm install
+4. Jalankan website:
+   npm run dev
+5. Buka browser dan akses:
+   http://localhost:5173
+
+Jika ada error, pastikan Node.js versi terbaru dan sudah install semua dependency.
+
+Catatan: Untuk produksi, gunakan perintah build dan preview:
+   npm run build
+   npm run preview
+>>>>>>> fa6fb88806aadc3231843fa37ddb03aed36d2c7b
